@@ -173,7 +173,7 @@ local core_plugins = {
 
   -- project.nvim
   {
-    "ahmedkhalf/project.nvim",
+    "edrw/project.nvim",
     config = function()
       require("lvim.core.project").setup()
     end,
